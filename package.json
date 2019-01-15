@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "Please Get Me",
   "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gwonsungjun/resume.git"
-  },
+  "repository": "git+https://github.com/gwonsungjun/resume.git",
   "scripts": {
     "deploy": "gh-pages -d ./"
   },
   "author": "Gwon sungjun <sungjunpizz@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.1.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.16.0",
+    "sass-loader": "^7.1.0"
   }
 }
